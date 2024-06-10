@@ -41,14 +41,15 @@ print("Taylor series approximation of cos(x):", taylor_cos(x, n))
 print("Taylor series approximation of sinh(x):", taylor_sinh(x, n))
 print("Taylor series approximation of cosh(x):", taylor_cosh(x, n))
 
-assert round ( taylor_cos ( x =1 , n =10) , 2) ==0.54
-print ( round ( taylor_cos ( x =3.14 , n =10) , 2) )
+# Asserting the values
+assert round(taylor_cos(1, 10), 2) == 0.54
+print(round(taylor_cos(3.14, 10), 2))
 
-assert round ( taylor_sin ( x =1 , n =10) , 4) ==0.8415
-print ( round ( taylor_sin ( x =3.14 , n =10) , 4) )
+assert round(taylor_sin(1, 10), 4) == 0.8415
+print(round(taylor_sin(3.14, 10), 4))
 
-assert round ( taylor_sinh ( x =1 , n =10) , 2) ==1.18
-print ( round ( taylor_sinh ( x =3.14 , n =10) , 2) )
+assert round(taylor_sinh(1, 10), 2) == 1.18
+print(round(taylor_sinh(3.14, 10), 2))
 
-assert round ( taylor_cosh ( x =1 , n =10) , 2) ==1.54
-print ( round ( taylor_cosh ( x =3.14 , n =10) , 2) )
+assert round(taylor_cosh(1, 10), 2) == 1.54
+print(round(taylor_cosh(3.14, 10), 2))
